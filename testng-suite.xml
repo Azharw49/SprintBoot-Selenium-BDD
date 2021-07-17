@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="spring-boot" parallel="classes" thread-count="2">
+    <test name="test-1">
+        <classes>
+            <class name="com.example.demo.googleTest.GoogleTest1" />
+            <class name="com.example.demo.googleTest.GoogleTest2" />
+        </classes>
+    </test>
+</suite>
